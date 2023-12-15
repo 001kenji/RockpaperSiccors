@@ -1,0 +1,1358 @@
+@media only screen and (max-width : 320px)  {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-top: 5%;
+    justify-content: space-around;
+
+  }
+  #score-master-div {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 10px 15px;
+    min-width: 250px;
+    justify-content: space-between;
+    
+  }
+  #score-list-div {
+    font-size: 11px;
+    
+    font-weight: bold;
+  }
+  #score-disp-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0.5rem;
+    justify-content:center;
+  }
+  #score-disp-div big {
+    color: hsl(229, 25%, 31%);
+    font-weight: bold;
+    font-size: x-large;
+    
+  }
+  #score-disp-div span {
+    color: hsl(229, 64%, 46%);
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  /* display content section */
+
+  #display-master-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: space-around;
+
+  }
+  #result-div-disp {
+    display: none;/* flex */
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #result-div-disp span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #result-div-disp button {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  #choices-container-div {
+    display: grid;
+    
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 300px;
+    margin: 0.5rem 0px;
+    background-image: url('../images/bg-pentagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  #inner2 {
+    display: grid;
+    /* margin-top: -0.2rem; */
+    margin: auto;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    margin-top: -2rem;
+    min-width: 250px;
+    max-width: 250px;
+   
+    
+  }
+  #inner3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    padding-top: 1.2rem;
+    justify-content: space-between;
+    margin: 0px 15px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+  #inner1 {
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    min-width: 250px;
+    max-width: 250px;
+  }
+  #scissorsImg {
+   width: 3.2rem;
+  }
+  #scissorsdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  }
+
+  #spockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #spockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+   }
+   
+  #paperImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #paperdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+   }
+
+   #lizardImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   
+    padding: 20px 2px;
+   }
+   #lizarddiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+   }
+
+   #rockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #rockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+   }
+   #selection1div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    
+   }
+   #compselectiondiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+
+   }
+   #Selection1img {
+    padding : 0.95rem;
+    border-radius : 100%;
+    background-color :  rgb(226 232 240);
+    width:3.9rem;
+   }
+
+
+
+
+
+  /* rules section */
+
+  #score-div {
+
+  }
+  
+  #score-div {
+    display: flex;/* flex */
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+    align-items: center;
+    padding: 1rem;
+  }
+  #score-div span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #score-div button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid hsl(217, 16%, 45%);
+  }
+  #rules-div {
+    display: grid;
+    padding-bottom: 0.5rem;
+    min-width: 400px;
+  }
+  #rules-div #rules {
+    border: 1px solid hsl(217, 16%, 45%);
+    /* float: right;    */
+    position: relative;
+  }
+  #rules-div #rules:hover {
+    background-color:hsl(217, 16%, 45%); 
+    color: black;
+    font-weight: bolder;
+  }
+
+  #rulesDiv {
+    position: absolute;
+    /* border: 2px solid hsl(217, 16%, 45%); */
+    max-height: 300px;
+    height: 300px;
+    max-width: 300px;
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: auto ;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    
+  }
+  #cancelRules {
+    width: 6%;
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  #rulesImg {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+ 
+
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 375px)  {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-top: 4%;
+    justify-content: space-around;
+
+  }
+  #score-master-div {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 10px 15px;
+    min-width: 250px;
+    justify-content: space-between;
+    
+  }
+  #score-list-div {
+    font-size: 11px;
+    
+    font-weight: bold;
+  }
+  #score-disp-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0.5rem;
+    justify-content:center;
+  }
+  #score-disp-div big {
+    color: hsl(229, 25%, 31%);
+    font-weight: bold;
+    font-size: x-large;
+    
+  }
+  #score-disp-div span {
+    color: hsl(229, 64%, 46%);
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  /* display content section */
+
+  #display-master-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: space-around;
+
+  }
+  #result-div-disp {
+    display: none;/* flex */
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #result-div-disp span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #result-div-disp button {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  #choices-container-div {
+    display: grid;
+    
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 300px;
+    margin: 0.5rem 0px;
+    background-image: url('../images/bg-pentagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  #inner2 {
+    display: grid;
+    /* margin-top: -0.2rem; */
+    margin: auto;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    margin-top: -2rem;
+    min-width: 250px;
+    max-width: 250px;
+   
+    
+  }
+  #inner3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    padding-top: 1.2rem;
+    justify-content: space-between;
+    margin: 0px 15px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+  #inner1 {
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    min-width: 250px;
+    max-width: 250px;
+  }
+  #scissorsImg {
+   width: 3.2rem;
+  }
+  #scissorsdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  }
+
+  #spockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #spockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+   }
+   
+  #paperImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #paperdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+   }
+
+   #lizardImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   
+    padding: 20px 2px;
+   }
+   #lizarddiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+   }
+
+   #rockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #rockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+   }
+   #selection1div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    
+   }
+   #compselectiondiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+
+   }
+   #Selection1img {
+    padding : 0.95rem;
+    border-radius : 100%;
+    background-color :  rgb(226 232 240);
+    width:3.9rem;
+   }
+
+
+
+
+
+  /* rules section */
+
+  #score-div {
+
+  }
+  
+  #score-div {
+    display: flex;/* flex */
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+    align-items: center;
+    padding: 1rem;
+  }
+  #score-div span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #score-div button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid hsl(217, 16%, 45%);
+  }
+  #rules-div {
+    display: grid;
+    padding-bottom: 0.5rem;
+    min-width: 400px;
+  }
+  #rules-div #rules {
+    border: 1px solid hsl(217, 16%, 45%);
+    /* float: right;    */
+    position: relative;
+  }
+  #rules-div #rules:hover {
+    background-color:hsl(217, 16%, 45%); 
+    color: black;
+    font-weight: bolder;
+  }
+
+  #rulesDiv {
+    position: absolute;
+    /* border: 2px solid hsl(217, 16%, 45%); */
+    max-height: 300px;
+    height: 300px;
+    max-width: 300px;
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: auto ;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    
+  }
+  #cancelRules {
+    width: 6%;
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  #rulesImg {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+ 
+
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 768px)  {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-top: 4%;
+    justify-content: space-around;
+
+  }
+  #score-master-div {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 10px 15px;
+    min-width: 350px;
+    justify-content: space-between;
+    
+  }
+  #score-list-div {
+    font-size: 11px;
+    
+    font-weight: bold;
+  }
+  #score-disp-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0.5rem;
+    justify-content:center;
+  }
+  #score-disp-div big {
+    color: hsl(229, 25%, 31%);
+    font-weight: bold;
+    font-size: x-large;
+    
+  }
+  #score-disp-div span {
+    color: hsl(229, 64%, 46%);
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  /* display content section */
+
+  #display-master-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: space-between;
+
+  }
+  #result-div-disp {
+    display: none;/* flex */
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #result-div-disp span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #result-div-disp button {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  #choices-container-div {
+    display: grid;
+    
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 350px;
+    margin: 1.5rem 0px;
+    background-image: url('../images/bg-pentagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  #inner2 {
+    display: grid;
+    /* margin-top: -0.2rem; */
+    margin: auto;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    margin-top: 0.9rem;
+    min-width: 350px;
+    max-width: 350px;
+   
+    
+  }
+  #inner3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    padding-top: 6.2rem;
+    justify-content: space-around;
+    /*  */
+    min-width: 350px;
+    max-width: 350px;
+  }
+  #inner1 {
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    min-width: 350px;
+    max-width: 350px;
+  }
+  #scissorsImg {
+   width: 3.2rem;
+  }
+  #scissorsdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  }
+
+  #spockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #spockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+   }
+   
+  #paperImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #paperdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+   }
+
+   #lizardImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   
+    padding: 20px 2px;
+   }
+   #lizarddiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+   }
+
+   #rockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #rockdiv {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+   }
+   #selection1div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    
+   }
+   #compselectiondiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+
+   }
+   #Selection1img {
+    padding : 0.95rem;
+    border-radius : 100%;
+    background-color :  rgb(226 232 240);
+    width:3.9rem;
+   }
+
+
+
+
+
+  /* rules section */
+
+  #score-div {
+
+  }
+  
+  #score-div {
+    display: flex;/* flex */
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+    align-items: center;
+    padding: 1rem;
+  }
+  #score-div span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #score-div button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid hsl(217, 16%, 45%);
+  }
+  #rules-div {
+    display: grid;
+    padding-bottom: 0.5rem;
+    min-width: 400px;
+  }
+  #rules-div #rules {
+    border: 1px solid hsl(217, 16%, 45%);
+    /* float: right;    */
+    position: relative;
+  }
+  #rules-div #rules:hover {
+    background-color:hsl(217, 16%, 45%); 
+    color: black;
+    font-weight: bolder;
+  }
+
+  #rulesDiv {
+    position: absolute;
+    /* border: 2px solid hsl(217, 16%, 45%); */
+    max-height: 300px;
+    height: 300px;
+    max-width: 300px;
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: auto ;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    
+  }
+  #cancelRules {
+    width: 6%;
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  #rulesImg {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+ 
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-top: 4%;
+    justify-content: space-around;
+
+  }
+  #score-master-div {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 10px 15px;
+    min-width: 350px;
+    justify-content: space-between;
+    
+  }
+  #score-list-div {
+    font-size: 11px;
+    
+    font-weight: bold;
+  }
+  #score-disp-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0.5rem;
+    justify-content:center;
+  }
+  #score-disp-div big {
+    color: hsl(229, 25%, 31%);
+    font-weight: bold;
+    font-size: x-large;
+    
+  }
+  #score-disp-div span {
+    color: hsl(229, 64%, 46%);
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  /* display content section */
+
+  #display-master-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: space-between;
+
+  }
+  #result-div-disp {
+    display: none;/* flex */
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #result-div-disp span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #result-div-disp button {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  #choices-container-div {
+    display: grid;
+    
+    min-width: 300px;
+    max-width: 350px;
+    min-height: 450px;
+    margin: 1.5rem 0px;
+    background-image: url('../images/bg-pentagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+  }
+  #inner2 {
+    display: grid;
+    /* margin-top: -0.2rem; */
+    margin: auto;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    margin-top: 0.9rem;
+    min-width: 320px;
+    max-width: 450px;
+   
+    
+  }
+  #inner3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    padding-top: 6.2rem;
+    justify-content: space-around;
+    /*  */
+   
+    min-width: 300px;
+    max-width: 350px;
+  }
+  #inner1 {
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    min-width: 490px;
+   
+    max-width: 490px;
+  }
+  #scissorsImg {
+   width: 3.2rem;
+  }
+  #scissorsdiv {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  }
+
+  #spockImg {
+    width: 3.5rem;
+    height: 3.5rem;
+   }
+   #spockdiv {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+   }
+   
+  #paperImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #paperdiv {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+   }
+
+   #lizardImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   
+    padding: 20px 2px;
+   }
+   #lizarddiv {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+   }
+
+   #rockImg {
+    width: 3.2rem;
+    height: 3.5rem;
+   }
+   #rockdiv {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+   }
+   #selection1div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    
+   }
+   #compselectiondiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+
+   }
+   #Selection1img {
+    padding : 0.95rem;
+    border-radius : 100%;
+    background-color :  rgb(226 232 240);
+    width:3.9rem;
+   }
+
+
+
+
+
+  /* rules section */
+
+  #score-div {
+
+  }
+  
+  #score-div {
+    display: flex;/* flex */
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+    align-items: center;
+    padding: 1rem;
+  }
+  #score-div span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #score-div button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid hsl(217, 16%, 45%);
+  }
+  #rules-div {
+    display: grid;
+    padding-bottom: 0.5rem;
+    min-width: 400px;
+  }
+  #rules-div #rules {
+    border: 1px solid hsl(217, 16%, 45%);
+    /* float: right;    */
+    position: relative;
+  }
+  #rules-div #rules:hover {
+    background-color:hsl(217, 16%, 45%); 
+    color: black;
+    font-weight: bolder;
+  }
+
+  #rulesDiv {
+    position: absolute;
+    /* border: 2px solid hsl(217, 16%, 45%); */
+    max-height: 300px;
+    height: 300px;
+    max-width: 400px;
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: auto ;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    
+  }
+  #cancelRules {
+    width: 6%;
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  #rulesImg {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+  }
+ 
+
+
+}
+
+ @media only screen and (min-width : 768px)  {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-around;
+
+  }
+  #score-master-div {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 10px 15px;
+    min-width: 550px;
+    justify-content: space-between;
+    
+  }
+  #score-list-div {
+    font-size: 11px;
+    
+    font-weight: bold;
+  }
+  #score-disp-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 1rem;
+    justify-content:center;
+  }
+  #score-disp-div big {
+    color: hsl(229, 25%, 31%);
+    font-weight: bold;
+    font-size: xx-large;
+    
+  }
+  #score-disp-div span {
+    color: hsl(229, 64%, 46%);
+    font-weight: bold;
+    font-size: smaller;
+  }
+
+  /* display content section */
+
+  #display-master-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    min-height: 100px;
+    min-width: 400px;
+    justify-content: space-around;
+
+  }
+  #result-div-disp {
+    display: flex;/* flex */
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    justify-content: space-around;
+    
+    padding: 2rem 5rem;
+  }
+  #result-div-disp span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #result-div-disp button {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  #choices-container-div {
+    display: grid;
+    
+    min-width: 390px;
+    max-width: 390px;
+    min-height: 300px;
+    margin: 1rem 0px;
+    background-image: url('../images/bg-pentagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  #inner2 {
+    display: grid;
+    margin-top: 0.5rem;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 0px -2rem;
+    min-width: 300px;
+  }
+  #inner3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 5rem;
+    justify-content: space-between;
+    margin: 0px 15px;
+    min-width: 300px;
+  }
+  #inner1 {
+    display: flex;
+   
+    justify-content: center;
+    min-width: 300px;
+  }
+  #scissorsImg {
+   width: 3.9rem;
+  }
+  #scissorsdiv {
+     background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  }
+
+  #spockImg {
+    width: 3.9rem;
+    height: 4.2rem;
+   }
+   #spockdiv {
+      background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+   }
+   
+  #paperImg {
+    width: 3.9rem;
+    height: 4.2rem;
+   }
+   #paperdiv {
+      background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+   }
+
+   #lizardImg {
+    width: 3.9rem;
+    height: 4.3rem;
+   
+    padding: 20px 2px;
+   }
+   #lizarddiv {
+      background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+   }
+
+   #rockImg {
+    width: 3.9rem;
+    height: 4.2rem;
+   }
+   #rockdiv {
+      background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+   }
+   #selection1div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+   }
+   #compselectiondiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-width: 150px;
+
+   }
+
+
+
+
+
+  /* rules section */
+
+  #score-div {
+    
+  }
+  
+  #score-div {
+    display: none;/* flex */
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 120px;
+    align-items: center;
+    padding: 1rem;
+  }
+  #score-div span {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #score-div button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid hsl(217, 16%, 45%);
+  }
+  #rules-div {
+    display: grid;
+    
+    min-width: 400px;
+  }
+  #rules-div #rules {
+    border: 1px solid hsl(217, 16%, 45%);
+    /* float: right;    */
+    position: relative;
+  }
+  #rules-div #rules:hover {
+    background-color:hsl(217, 16%, 45%); 
+    color: black;
+    font-weight: bolder;
+  }
+
+  #rulesDiv {
+    position: absolute;
+    /* border: 2px solid hsl(217, 16%, 45%); */
+    max-height: 400px;
+    height: 400px;
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: auto ;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    
+  }
+  #cancelRules {
+    width: 6%;
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  #rulesImg {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+  }
+ 
+
+
+} 
